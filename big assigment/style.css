@@ -1,0 +1,208 @@
+.navt {
+  margin-left: 400px;
+  margin-top: -50px;
+  font-weight: bold;
+}
+.sig {
+  margin-left: 1200px;
+  margin-top: -20px;
+
+  position: absolute;
+  top: 60px;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+.heh1 {
+  color: black;
+  font-weight: bold;
+
+  padding-right: 800px;
+
+  margin-left: 50px;
+  font-size: 50px;
+
+  display: inline-block;
+}
+.hep {
+  color: gray;
+  padding-right: 920px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+.heb {
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+.fbox {
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: gray;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.gbox {
+  margin-top: -205px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: gray;
+  margin-left: 470px;
+  border-radius: 10px;
+}
+.hbox {
+  margin-top: -205px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  color: gray;
+  margin-left: 900px;
+  border-radius: 10px;
+}
+.heh1r {
+  color: black;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-right: 600px;
+
+  font-size: 50px;
+  position: relative;
+  left: 600px;
+
+  display: inline-block;
+}
+.hepr {
+  color: gray;
+
+  font-size: 20px;
+
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 600px;
+  position: relative;
+  left: 600px;
+}
+
+.right {
+  display: inline-block;
+  text-align: left;
+}
+.ibox {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  color: gray;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.jbox {
+  margin-top: -305px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  color: gray;
+  margin-left: 470px;
+  border-radius: 10px;
+}
+.kbox {
+  margin-top: -305px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  color: gray;
+  margin-left: 900px;
+  border-radius: 10px;
+}
+.uk {
+  text-align: start;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+ .navt {
+  margin-left: 0;
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
+ 
+}
+.sig {
+  margin-left: 0;
+  margin-top: 10px;
+  position: static;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+}
+.heh1 {
+  color: black;
+  font-weight: bold;
+  padding-right: 0;
+  margin-left: 0;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  
+}
+
+.hep {
+  color: gray;
+  padding-right: 0;
+  font-size: 16px;
+  margin-left: 0;
+  text-align: center;
+}
+.heb {
+  background-color: black;
+  color: white;
+  margin-left: 0;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+.fbox, .gbox, .hbox, .ibox, .jbox, .kbox {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: gray;
+  margin-left: 0;
+  border-radius: 10px;
+}
+.heh1r, .hepr {
+  color: black;
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 30px;
+  position: static;
+  display: block;
+  text-align: center;
+}
+.right {
+  display: block;
+  text-align: center;
+}
+.uk {
+  text-align: center;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+}
